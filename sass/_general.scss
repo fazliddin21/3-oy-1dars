@@ -1,0 +1,28 @@
+html{
+   height: 100%;
+   scroll-behavior: smooth;
+ }
+ 
+ *,*::after,*::before{
+   box-sizing: border-box;
+ }
+ 
+ body{
+   font-family: "Futura PT", sans-serif;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   margin: 0;
+   background-image: url('../images/bg.png');
+   background-repeat: no-repeat;
+ }
+ 
+ main{
+   flex-grow: 1;
+   background-color:  #E5E5E5;;
+ }
+ 
+ img{
+   vertical-align: middle ;
+   object-fit: cover;
+ }
